@@ -1,0 +1,26 @@
+capture:
+  device: /dev/video0
+  height: 240
+  width: 320
+  interval: 50ms
+
+threshold:
+  min_hue: 11
+  max_hue: 62
+  min_sat: 30
+  max_sat: 255
+  min_val: 142
+  max_val: 255
+
+morph:
+  blur: 7
+  erosion: 5
+
+transform:
+  dp: 17
+  min_dist: 87
+  param_1: 30
+  param_2: 150
+  min_radius: 10
+  max_radius: 0
+
